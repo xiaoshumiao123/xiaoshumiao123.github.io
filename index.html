@@ -741,10 +741,11 @@ object {
 
                                     <model-viewer style="height: 360px; width: 480px; "
                                                     alt="Vox-Fusion"
-                                                    loading="eager"
                                                     src="final_mesh.glb"
                                                     ar-status="not-presenting"
-                                                    camera-controls auto-rotate
+                                                    camera-controls 
+                                                    auto-rotate
+                                                    auto-rotate-delay="5000"
                                                     exposure=".8"
                                                     generate-schema
                                                     
@@ -761,7 +762,8 @@ object {
                                                         alt="Co-SLAM"
                                                         src="mesh_track5577.glb"
                                                         ar-status="not-presenting"
-                                                        camera-controls auto-rotate
+                                                        camera-controls 
+                                                        auto-rotate
                                                         exposure=".8"
                                                         generate-schema>
                                     </model-viewer>
@@ -775,7 +777,8 @@ object {
                                                             alt="SRH-SLAM"
                                                             src="final_mesh_test.glb"
                                                             ar-status="not-presenting"
-                                                            camera-controls auto-rotate
+                                                            camera-controls 
+                                                            auto-rotate
                                                             exposure=".8"
                                                             generate-schema>
                                         </model-viewer>
